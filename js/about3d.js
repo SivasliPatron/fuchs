@@ -78,7 +78,7 @@
         color: 0xb87333, roughness: 0.18, metalness: 0.92, envMapIntensity: 2.8
       }),
       sienna: new THREE.MeshStandardMaterial({
-        color: 0xa0522d, roughness: 0.28, metalness: 0.08, envMapIntensity: 0.5
+        color: 0x1e3a5f, roughness: 0.28, metalness: 0.08, envMapIntensity: 0.5
       }),
       white: new THREE.MeshStandardMaterial({
         color: 0xf5f0ea, roughness: 0.35, metalness: 0.02, envMapIntensity: 0.4
@@ -228,7 +228,7 @@
     var boothOutline = new THREE.Mesh(
       new THREE.BoxGeometry(0.22, 0.004, 0.16),
       new THREE.MeshStandardMaterial({
-        color: 0xa0522d, roughness: 0.3, transparent: true, opacity: 0.45
+        color: 0x1e3a5f, roughness: 0.3, transparent: true, opacity: 0.45
       })
     );
     boothOutline.position.set(0.3, 0.994, -0.06);
@@ -453,7 +453,7 @@
     var lShape2 = new THREE.Mesh(
       new THREE.BoxGeometry(0.15, 0.1, 0.004),
       new THREE.MeshStandardMaterial({
-        color: 0xa0522d, roughness: 0.35, transparent: true, opacity: 0.35
+        color: 0x1e3a5f, roughness: 0.35, transparent: true, opacity: 0.35
       })
     );
     lShape2.position.set(0.15, 0.08, 0.021);
@@ -648,7 +648,7 @@
     /* Books on shelf */
     var bookData = [
       { c: 0x1a2e4d, h: 0.18 },
-      { c: 0xa0522d, h: 0.16 },
+      { c: 0x1e3a5f, h: 0.16 },
       { c: 0x2d4a2d, h: 0.17 },
       { c: 0x4a3020, h: 0.15 }
     ];

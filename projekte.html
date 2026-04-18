@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#a0522d">
+  <meta name="theme-color" content="#1e3a5f">
   <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="manifest" href="/site.webmanifest">
   <title>Projekte – Fuchs Messebau | Referenzen und realisierte Messestände</title>
-  <meta name="description" content="Entdecken Sie unsere realisierten Messebau-Projekte. Von der Hannover Messe bis zur MEDICA — individuelle Messestände für zahlreiche Branchen.">
+  <meta name="description" content="Entdecken Sie unsere realisierten Messebau-Projekte: Heimtextil Frankfurt, ProWein Düsseldorf, Anuga Köln, EMO Hannover und mehr.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://fuchsmessebau.de/projekte.html">
   <meta property="og:title" content="Projekte – Fuchs Messebau">
@@ -15,7 +16,12 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="de_DE">
   <meta property="og:site_name" content="Fuchs Messebau">
-  <script>(function(){try{var t=localStorage.getItem('fm_theme');if(!t){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.dataset.theme=t;}catch(e){}})();</script>
+    <meta property="og:image" content="https://fuchsmessebau.de/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fuchs Messebau - individuelle Messestände">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://fuchsmessebau.de/og-image.jpg">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -39,7 +45,6 @@
           <li><a href="projekte.html" class="active">Projekte</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
           <li class="nav-cta"><a href="kontakt.html" class="btn btn-primary btn-sm">Anfrage stellen</a></li>
-          <li><button class="theme-toggle" id="themeToggle" type="button" aria-label="Farbschema wechseln" aria-pressed="false"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button></li>
         </ul>
       </nav>
     </div>
@@ -69,54 +74,83 @@
           <p class="section-subtitle mx-auto">Jedes Projekt erzählt eine eigene Geschichte. Klicken Sie sich durch unsere realisierten Messeauftritte aus unterschiedlichen Branchen.</p>
         </div>
         <div class="projects-grid fade-in">
-          <div class="project-card">
-            <div class="project-image"><img src="bilder/WhatsApp%20Image%202026-03-26%20at%2020.12.46.jpeg" alt="Inselstand der TechVision GmbH auf der Hannover Messe" loading="lazy" decoding="async" width="800" height="550"></div>
+          <button type="button" class="project-card" data-gallery data-folder="bilder/Heimtextil Frankfurt 2026" data-images="Bettwäsche 1.jpeg|Bettwäsche 2.jpeg|Bettwäsche 3.jpeg|Bettwäsche 4.jpeg|Bettwäsche 5.jpeg" data-title="Heimtextil Frankfurt 2026">
+            <div class="project-image"><img src="bilder/Heimtextil%20Frankfurt%202026/Bettw%C3%A4sche%201.jpeg" alt="Messestand auf der Heimtextil Frankfurt 2026" loading="lazy" decoding="async" width="800" height="550"></div>
             <div class="project-overlay">
-              <span class="project-tag">Industrie</span>
-              <h3>TechVision GmbH</h3>
-              <p>Inselstand, 120 m² — Hannover Messe 2025</p>
+              <span class="project-tag">Heimtextilien</span>
+              <h3>Heimtextil Frankfurt</h3>
+              <p>Messestand für einen Bettwäsche-Aussteller — Frankfurt 2026</p>
+              <span class="project-more">5 Bilder ansehen →</span>
             </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image"><img src="bilder/WhatsApp%20Image%202026-03-26%20at%2020.12.48.jpeg" alt="Messestand der MedPharma AG auf der MEDICA Düsseldorf" loading="lazy" decoding="async" width="800" height="550"></div>
+          </button>
+          <button type="button" class="project-card" data-gallery data-folder="bilder/Prowein Düsseldorf 2026" data-images="Team 1.jpeg|Team 2.jpeg|Team 3.jpeg" data-title="ProWein Düsseldorf 2026">
+            <div class="project-image"><img src="bilder/Prowein%20D%C3%BCsseldorf%202026/Team%201.jpeg" alt="Messestand auf der ProWein Düsseldorf 2026" loading="lazy" decoding="async" width="800" height="550"></div>
             <div class="project-overlay">
-              <span class="project-tag">Medizintechnik</span>
-              <h3>MedPharma AG</h3>
-              <p>Kopfstand, 80 m² — MEDICA Düsseldorf 2024</p>
+              <span class="project-tag">Wein &amp; Spirituosen</span>
+              <h3>ProWein Düsseldorf</h3>
+              <p>Messeauftritt mit Verkostungsbereich — Düsseldorf 2026</p>
+              <span class="project-more">3 Bilder ansehen →</span>
             </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image"><img src="bilder/WhatsApp%20Image%202026-03-26%20at%2020.13.06.jpeg" alt="Reihenstand von DataFlow Systems" loading="lazy" decoding="async" width="800" height="550"></div>
+          </button>
+          <button type="button" class="project-card" data-gallery data-folder="bilder/Anuga Köln 2025" data-images="Fresh 1.jpeg|Fresh 2.jpeg" data-title="Anuga Köln 2025 — Fresh">
+            <div class="project-image"><img src="bilder/Anuga%20K%C3%B6ln%202025/Fresh%201.jpeg" alt="Anuga Köln 2025 — Fresh-Halle" loading="lazy" decoding="async" width="800" height="550"></div>
             <div class="project-overlay">
-              <span class="project-tag">IT & Software</span>
-              <h3>DataFlow Systems</h3>
-              <p>Reihenstand, 60 m² — CeBIT Nachfolge 2025</p>
+              <span class="project-tag">Food &amp; Beverage</span>
+              <h3>Anuga Köln — Fresh</h3>
+              <p>Messestand in der Fresh-Halle — Köln 2025</p>
+              <span class="project-more">2 Bilder ansehen →</span>
             </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image"><img src="bilder/WhatsApp%20Image%202026-03-26%20at%2020.13.10.jpeg" alt="Eckstand von CleanTech Solutions auf der IFAT München" loading="lazy" decoding="async" width="800" height="550"></div>
+          </button>
+          <button type="button" class="project-card" data-gallery data-folder="bilder/Anuga Köln 2025 2" data-images="Food 1.jpeg|Food 2.jpeg" data-title="Anuga Köln 2025 — Food">
+            <div class="project-image"><img src="bilder/Anuga%20K%C3%B6ln%202025%202/Food%201.jpeg" alt="Anuga Köln 2025 — Food-Halle" loading="lazy" decoding="async" width="800" height="550"></div>
             <div class="project-overlay">
-              <span class="project-tag">Umwelttechnik</span>
-              <h3>CleanTech Solutions</h3>
-              <p>Eckstand, 95 m² — IFAT München 2024</p>
+              <span class="project-tag">Food &amp; Beverage</span>
+              <h3>Anuga Köln — Food</h3>
+              <p>Messestand für einen Food-Aussteller — Köln 2025</p>
+              <span class="project-more">2 Bilder ansehen →</span>
             </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image"><img src="bilder/WhatsApp%20Image%202026-03-26%20at%2020.16.06.jpeg" alt="Messestand von Alpenkraft Naturprodukte auf der Anuga Köln" loading="lazy" decoding="async" width="800" height="550"></div>
+          </button>
+          <button type="button" class="project-card" data-gallery data-folder="bilder/Anuga Kökn 2025 3" data-images="Dar 1.jpeg|Dar 2.jpeg" data-title="Anuga Köln 2025 — International">
+            <div class="project-image"><img src="bilder/Anuga%20K%C3%B6kn%202025%203/Dar%201.jpeg" alt="Anuga Köln 2025 — internationaler Aussteller" loading="lazy" decoding="async" width="800" height="550"></div>
             <div class="project-overlay">
-              <span class="project-tag">Food & Beverage</span>
-              <h3>Alpenkraft Naturprodukte</h3>
-              <p>Inselstand, 70 m² — Anuga Köln 2025</p>
+              <span class="project-tag">Food &amp; Beverage</span>
+              <h3>Anuga Köln — International</h3>
+              <p>Messestand für internationalen Aussteller — Köln 2025</p>
+              <span class="project-more">2 Bilder ansehen →</span>
             </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image"><img src="bilder/WhatsApp%20Image%202026-03-26%20at%2020.16.18.jpeg" alt="Doppelstock-Messestand der SolarNova AG auf der Intersolar München" loading="lazy" decoding="async" width="800" height="550"></div>
+          </button>
+          <button type="button" class="project-card" data-gallery data-folder="bilder/Emo Hannover 2025" data-images="Igrek.jpeg|Igrek 2.jpeg" data-title="EMO Hannover 2025">
+            <div class="project-image"><img src="bilder/Emo%20Hannover%202025/Igrek.jpeg" alt="EMO Hannover 2025" loading="lazy" decoding="async" width="800" height="550"></div>
             <div class="project-overlay">
-              <span class="project-tag">Energie</span>
-              <h3>SolarNova AG</h3>
-              <p>Doppelstock, 150 m² — Intersolar München 2024</p>
+              <span class="project-tag">Industrie &amp; Werkzeugmaschinen</span>
+              <h3>EMO Hannover</h3>
+              <p>Messestand für einen Maschinenbau-Aussteller — Hannover 2025</p>
+              <span class="project-more">2 Bilder ansehen →</span>
             </div>
+          </button>
+          <button type="button" class="project-card" data-gallery data-folder="bilder/Köln Messe 2025" data-images="Nig 1.jpeg|Nig 2.jpeg|NIg 3.jpeg|Nig 4.jpeg" data-title="Koelnmesse 2025">
+            <div class="project-image"><img src="bilder/K%C3%B6ln%20Messe%202025/Nig%201.jpeg" alt="Messeauftritt Köln Messe 2025" loading="lazy" decoding="async" width="800" height="550"></div>
+            <div class="project-overlay">
+              <span class="project-tag">Konsumgüter</span>
+              <h3>Koelnmesse</h3>
+              <p>Messestand auf dem Kölner Messegelände — Köln 2025</p>
+              <span class="project-more">4 Bilder ansehen →</span>
+            </div>
+          </button>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Bildergalerie" hidden>
+          <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Galerie schließen">&times;</button>
+          <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Vorheriges Bild">&#10094;</button>
+          <div class="lightbox-stage">
+            <figure class="lightbox-figure">
+              <img id="lightboxImage" alt="">
+              <figcaption id="lightboxCaption"></figcaption>
+            </figure>
           </div>
+          <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Nächstes Bild">&#10095;</button>
+          <div class="lightbox-counter" id="lightboxCounter" aria-hidden="true"></div>
         </div>
       </div>
     </section>
@@ -127,18 +161,18 @@
         <div class="content-grid fade-in">
           <div class="content-body">
             <span class="section-label">Projekt-Highlight</span>
-            <h2 class="section-title">TechVision GmbH — Hannover Messe</h2>
-            <p>Für die TechVision GmbH haben wir einen 120 m² großen Inselstand auf der Hannover Messe realisiert. Der Stand verbindet industrielle Ästhetik mit moderner Medientechnik und schafft so eine einladende Atmosphäre für Fachgespräche.</p>
-            <p>Besonderes Highlight: Ein begehbarer Produktshowroom mit integrierter LED-Wand und einem separaten Besprechungsbereich für vertrauliche Kundengespräche.</p>
+            <h2 class="section-title">Heimtextil Frankfurt 2026</h2>
+            <p>Für einen Bettwäsche-Aussteller haben wir auf der Heimtextil 2026 in Frankfurt einen einladenden Messestand realisiert, der Produkt und Markenwelt in den Mittelpunkt stellt. Klare Linien, warme Materialien und stimmungsvolle Beleuchtung sorgen für eine wohnliche Atmosphäre direkt auf dem Messegelände.</p>
+            <p>Vom ersten Entwurf bis zum Standabbau lag das gesamte Projekt in unserer Hand — Planung, Logistik, Aufbau und Betreuung vor Ort.</p>
             <ul class="check-list">
-              <li>120 m² Inselstand mit offener Architektur</li>
-              <li>Integrierte LED-Wand (6 × 3 Meter)</li>
-              <li>Separater Besprechungsraum mit Akustikpaneelen</li>
-              <li>Nachhaltige Bauweise — 80 % wiederverwendbare Module</li>
+              <li>Individuelles Standdesign für Heimtextilien</li>
+              <li>Warenpräsentation auf Augenhöhe</li>
+              <li>Gemütlicher Beratungsbereich</li>
+              <li>Komplette Projektabwicklung aus einer Hand</li>
             </ul>
           </div>
           <div class="content-image">
-            <div class="content-image-placeholder" aria-hidden="true"></div>
+            <img src="bilder/Heimtextil%20Frankfurt%202026/Bettw%C3%A4sche%202.jpeg" alt="Detailansicht Heimtextil Frankfurt 2026" loading="lazy" decoding="async" width="800" height="600">
           </div>
         </div>
       </div>

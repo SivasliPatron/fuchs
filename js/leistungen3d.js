@@ -112,7 +112,7 @@
         color: 0xb87333, roughness: 0.2, metalness: 0.9, envMapIntensity: 2.5
       }),
       sienna: new THREE.MeshStandardMaterial({
-        color: 0xa0522d, roughness: 0.28, metalness: 0.1, envMapIntensity: 0.5
+        color: 0x1e3a5f, roughness: 0.28, metalness: 0.1, envMapIntensity: 0.5
       }),
       gridLine: new THREE.MeshStandardMaterial({
         color: 0x2255aa, emissive: 0x1144aa, emissiveIntensity: 0.3,

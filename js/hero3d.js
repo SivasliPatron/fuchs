@@ -109,7 +109,7 @@
         color: 0xb87333, roughness: 0.22, metalness: 0.88, envMapIntensity: 2.2
       }),
       sienna: new THREE.MeshStandardMaterial({
-        color: 0xa0522d, roughness: 0.3, metalness: 0.12, envMapIntensity: 0.5
+        color: 0x1e3a5f, roughness: 0.3, metalness: 0.12, envMapIntensity: 0.5
       }),
       fabric: new THREE.MeshStandardMaterial({
         color: 0x2a2a2d, roughness: 0.92, metalness: 0.0
